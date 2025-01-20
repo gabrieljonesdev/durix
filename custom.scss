@@ -1,0 +1,19 @@
+// Importa le funzioni di Bootstrap
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+// Importa le funzioni e le variabili di Bootstrap Italia
+@import "node_modules/bootstrap-italia/src/scss/functions";
+@import "node_modules/bootstrap-italia/src/scss/variables";
+
+// Sovrascrivi le variabili di Bootstrap Italia
+$primary: #6c757d;   // Colore primario (grigio scuro)
+$secondary: #adb5bd; // Colore secondario (grigio medio)
+$success: #6c757d;   // Colore per success (grigio scuro)
+$danger: #868e96;    // Colore per danger (grigio chiaro)
+$warning: #6c757d;   // Colore per warning (grigio scuro)
+$info: #adb5bd;      // Colore per info (grigio medio)
+
+// Ora importa l'intero framework di Bootstrap Italia
+@import "node_modules/bootstrap-italia/src/scss/bootstrap-italia";
